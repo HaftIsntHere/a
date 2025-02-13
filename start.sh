@@ -23,5 +23,5 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 #install ngrok
 brew install hookdeck/hookdeck/hookdeck
 #configure ngrok and start it
-HOOKDECK_CLI_API_KEY=$1 hookdeck login
-hookdeck listen 5900 mac --path /mac
+#HOOKDECK_CLI_API_KEY=$1 hookdeck login
+hookdeck listen 5900 mac
